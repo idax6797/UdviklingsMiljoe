@@ -11,5 +11,3 @@ jobs:
         run: npm install
       - name: Cypress run
         uses: cypress-io/github-action@v5
-      - name: 'E2E - Test'
-        run: npm run cypress
