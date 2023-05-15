@@ -1,4 +1,5 @@
 name: End-to-end tests
+run-name: E2E - Test 🔎
 on: push
 jobs:
   cypress-run:
