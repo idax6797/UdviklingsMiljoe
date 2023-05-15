@@ -1,5 +1,5 @@
 name: Qodana Scan
-
+run-name: Qodana Scan 📡
 on:
   push:
     branches:
@@ -15,6 +15,6 @@ jobs:
       - name: Qodana Scan
         uses: JetBrains/qodana-action@main
         env:
-          QODANA_TOKEN: ${{ secrets.QODANA }}
+          QODANA_TOKEN: ${{ secrets.QODANA_TOKEN }}
         with:
           exclude: Eslint,CommaExpressionJS
