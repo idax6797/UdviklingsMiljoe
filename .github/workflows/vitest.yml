@@ -1,6 +1,9 @@
 name: 'Test'
-on: 
-  pull_request:
+run-name: Vitest 🔎
+on:
+  push:
+    branches:
+      - main
 
 jobs:
   test:

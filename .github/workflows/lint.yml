@@ -2,7 +2,8 @@ name: Eslint
 run-name: Eslint 🔦
 on:
   push:
-  pull_request:
+    branches:
+      - main
 
 jobs:
   eslint:
