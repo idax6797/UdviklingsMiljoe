@@ -1,5 +1,5 @@
 name: 'Test'
-run-name: Vitest 🔎
+run-name: Test 🔎
 on:
   push:
     branches:
