@@ -14,7 +14,7 @@ import {computed, ref} from "vue";
   };
 
   const writeLocalStorage = () => {
-    localStorage.setItem('todoList', JSON.stringify(todoList.value));
+    localStorage.setItem("todoList", JSON.stringify(todoList.value));
   };
 
   const addTodo = () => {
